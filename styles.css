@@ -1,0 +1,56 @@
+* {
+  margin: 10px;
+  padding: 10px;
+}
+
+#Todo {
+  font-size: xx-large;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+#newTask {
+  border: none;
+  border-bottom: 2px solid green;
+  outline: none;
+  font-size: large;
+}
+
+#Add {
+  border-radius: 20px;
+  color: white;
+  background-color: green;
+  border: none;
+  font-size: large;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+div.container {
+  text-align: center;
+  border-radius: 0%;
+}
+
+div.container > ul#list {
+  list-style-type: none;
+}
+
+div.container > ul#list li {
+  background-color: rgb(9, 145, 99);
+  padding: 10px;
+  margin: 5px ;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.container > ul#list li button {
+  background-color: #dc3545;
+  color: white;
+  border: white;
+  padding: 5px;
+}
